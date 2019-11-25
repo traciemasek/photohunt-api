@@ -8,14 +8,18 @@
 
 Score.destroy_all
 Score.create!([
+  {
+    username: "lemmy", 
+    userscore: 1000
+  },
 #   {
 #   username: "fartyparty69", 
 #   userscore: 69000
 # },
-{
-  username: "yourMom", 
-  userscore: 1000
-},
+# {
+#   username: "yourMom", 
+#   userscore: 1000
+# },
 # {
 #   username: "666", 
 #   userscore: 666
